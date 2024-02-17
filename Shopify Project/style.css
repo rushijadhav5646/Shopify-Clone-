@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(10,61,61);
+    color: white;
+    padding: 12px;
+}
+
+nav .img{
+    width: 13%;
+}
+
+nav button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(21,139,100);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+
+nav button:hover{
+    background-color: rgb(3, 114, 77);
+    cursor: pointer;
+}
+
+nav p:hover{
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+nav p{
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(10,61,61);
+}
+
+.main img{
+    width: 580px;
+    height: 480px;
+    margin-top: 11px;
+}
+
+.main .text{
+     margin-top: 44px;
+     margin-left: 37px;
+}
+
+.main .text .h1{
+    font-size: 54px;
+    margin-top: 32;
+}
+
+.inp{
+    margin-top: 20px;
+}
+
+.main .inp p{
+    margin-top: 16px;
+    font-size: 26px;
+}
+
+.main .inp input{
+    width: 300px;
+    height: 46px;
+    border: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.inp button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(21,139,100);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    margin-top: 9px;
+    margin-inline: 11px;
+}
+
+.inp button:hover{
+    background-color: rgb(3, 114, 77);
+    cursor: pointer;
+}
+
+.main .text .dis{
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+.discover{
+    text-align: center;
+    padding: 33px;
+    margin-top: 33px;
+    font-size: 26px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+}
+
+.card .text{
+    margin-top: 53px;
+}
+
+.card .text h2{
+    font-size: 37px;
+    margin-top: 5px;
+}
+
+.card .text p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.card .img{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(245,216,220);
+    border-radius: 7px;
+}
+
+.globe{
+    text-align: center;
+    margin-top: 53px;
+}
+
+.globe h1{
+    font-size: 43px;
+}
+
+.globe img{
+    width: 63px;
+}
+
+.globe .number{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(3, 114, 77);
+}
+
+.number .num{
+    font-size: 25px;
+}
+
+
